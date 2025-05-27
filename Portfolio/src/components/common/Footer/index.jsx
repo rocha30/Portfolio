@@ -6,17 +6,17 @@ const Footer = () => {
     const socialLinks = [
         {
             name: 'GitHub',
-            url: 'https://github.com/tu-usuario',
+            url: 'https://github.com/rocha30',
             icon: '📱'
         },
         {
             name: 'LinkedIn',
-            url: 'https://linkedin.com/in/tu-perfil',
+            url: 'https://www.linkedin.com/in/mario-fernando-rocha-lopez-0b4a4a332/',
             icon: '💼'
         },
         {
             name: 'Email',
-            url: 'mailto:tu-email@gmail.com',
+            url: 'marochalopez@gmail.com',
             icon: '✉️'
         }
     ]
@@ -28,7 +28,7 @@ const Footer = () => {
                     <div className="footer__info">
                         <h3>Mario Rocha</h3>
                         <p>Estudiante de Ingeniería en Sistemas</p>
-                        <p>Desarrollador Web Full Stack</p>
+                        <p>Desarrollador Full Stack</p>
                     </div>
 
                     <div className="footer__social">

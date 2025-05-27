@@ -12,30 +12,33 @@ const QuickAbout = () => {
                 <div className="about__content">
                     <div className="about__text">
                         <p className="about__paragraph">
-                            Soy un estudiante de <strong>3er año de Ingeniería en Sistemas</strong> con una gran
-                            pasión por el desarrollo web y la creación de soluciones tecnológicas innovadoras.
+                            Soy estudiante de tercer año de Ingeniería en Ciencias de la Computación y Tecnologías de la Información
+                            en la Universidad del Valle de Guatemala (2023-2027), con enfoque en desarrollo backend, gestión de bases de datos y soluciones escalables.
+                            Me apasiona aprender y aplicar tecnologías emergentes en proyectos innovadores.
                         </p>
 
                         <p className="about__paragraph">
-                            Mi enfoque está en <strong>desarrollo frontend</strong> con React y JavaScript,
-                            pero también tengo experiencia en backend con Node.js y bases de datos.
-                            Me encanta aprender nuevas tecnologías y aplicarlas en proyectos reales.
+                            Mi experiencia académica incluye Node.js, PostgreSQL, Prisma ORM y API REST, junto con conocimientos en frontend con React,
+                            JavaScript y HTML/CSS para crear aplicaciones integrales. He colaborado en proyectos como sistemas de reservas y plataformas web,
+                            fortaleciendo mis habilidades en trabajo en equipo y control de versiones con Git/GitHub.
                         </p>
 
                         <p className="about__paragraph">
-                            Estoy buscando <strong>oportunidades de prácticas profesionales</strong> donde
-                            pueda contribuir con mis conocimientos y seguir creciendo como desarrollador.
+                            Además, desarrollo habilidades blandas como resolución de problemas, comunicación asertiva y adaptabilidad. Actualmente,
+                            amplío conocimientos en Docker y exploro áreas de diseño de interfaces (UI/UX).
                         </p>
                     </div>
+
 
                     <div className="about__highlights">
                         <h3>¿Por qué trabajar conmigo?</h3>
                         <ul className="about__list">
-                            <li>🎯 Enfocado en escribir código limpio y mantenible</li>
-                            <li>🚀 Siempre dispuesto a aprender nuevas tecnologías</li>
-                            <li>👥 Excelente trabajo en equipo y comunicación</li>
-                            <li>🔍 Atención al detalle en UI/UX</li>
-                            <li>⚡ Capacidad de adaptación y resolución de problemas</li>
+                            <li>🎯 Enfoque en código limpio y escalable (experiencia en POO y arquitecturas REST)</li>
+                            <li>🛠️ Versatilidad técnica: desde bases de datos hasta integración frontend/backend</li>
+                            <li>🚀 Compromiso con el aprendizaje continuo (dominio intermedio de inglés y aprendizaje de Docker)</li>
+                            <li>👥 Metodología colaborativa con control de versiones y documentación clara</li>
+                            <li>🔍 Atención al detalle en implementaciones técnicas y experiencia de usuario</li>
+
                         </ul>
                     </div>
                 </div>

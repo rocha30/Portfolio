@@ -32,9 +32,10 @@ const Hero = () => {
                             Estudiante de <span className="hero__highlight">Ingeniería en Sistemas</span>
                         </h2>
                         <p className="hero__description">
-                            Apasionado por crear experiencias web increíbles con React, JavaScript
-                            y las últimas tecnologías. Transformo ideas en código limpio y funcional.
-                            Actualmente en 3er año de carrera, buscando oportunidades para crecer profesionalmente.
+                            Estudiante de Ingeniería en Ciencias de la Computación en la Universidad del Valle de Guatemala,
+                            apasionado por el desarrollo backend con Node.js, PostgreSQL y Prisma ORM.
+                            Creo aplicaciones full-stack con React y JavaScript, enfocándome en soluciones escalables, código limpio y trabajo en equipo.
+                            , con interés en aplicar mis habilidades en proyectos reales y contribuir a un equipo innovador.
                         </p>
 
                         <div className="hero__stats">
@@ -43,11 +44,11 @@ const Hero = () => {
                                 <span className="hero__stat-label">Años de estudio</span>
                             </div>
                             <div className="hero__stat">
-                                <span className="hero__stat-number">5+</span>
+                                <span className="hero__stat-number">10+</span>
                                 <span className="hero__stat-label">Proyectos</span>
                             </div>
                             <div className="hero__stat">
-                                <span className="hero__stat-number">10+</span>
+                                <span className="hero__stat-number">12+</span>
                                 <span className="hero__stat-label">Tecnologías</span>
                             </div>
                         </div>

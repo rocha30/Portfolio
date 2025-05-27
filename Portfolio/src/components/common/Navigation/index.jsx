@@ -22,9 +22,9 @@ const Navigation = () => {
     }
 
     const downloadCV = () => {
-        // Crear un link temporal para descargar el CV
+
         const link = document.createElement('a')
-        link.href = '/cv-mario-rocha.pdf' // Asegúrate de poner tu CV en la carpeta public
+        link.href = '/cv-mario-rocha.pdf'
         link.download = 'CV-Mario-Rocha.pdf'
         document.body.appendChild(link)
         link.click()

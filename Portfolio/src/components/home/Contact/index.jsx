@@ -6,26 +6,26 @@ const Contact = () => {
         {
             icon: '📧',
             label: 'Email',
-            value: 'mario.rocha@email.com',
-            link: 'mailto:mario.rocha@email.com'
+            value: 'marochalopez@gmail.com',
+            link: 'marochalopez@gmail.com'
         },
         {
             icon: '📱',
             label: 'LinkedIn',
-            value: '/in/mario-rocha',
-            link: 'https://linkedin.com/in/mario-rocha'
+            value: 'MARIO FERNANDO ROCHA LOPEZ',
+            link: 'https://www.linkedin.com/in/mario-fernando-rocha-lopez-0b4a4a332/'
         },
         {
             icon: '💻',
             label: 'GitHub',
-            value: '@mariorocha',
-            link: 'https://github.com/mariorocha'
+            value: '@rocha30',
+            link: 'https://github.com'
         },
         {
             icon: '📞',
             label: 'Teléfono',
-            value: '+1 (555) 123-4567',
-            link: 'tel:+15551234567'
+            value: '+502 4230 6428',
+            link: 'tel:+50242306428'
         }
     ]
 
