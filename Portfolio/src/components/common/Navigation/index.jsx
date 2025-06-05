@@ -22,13 +22,7 @@ const Navigation = () => {
     }
 
     const downloadCV = () => {
-
-        const link = document.createElement('a')
-        link.href = '/cv-mario-rocha.pdf'
-        link.download = 'CV-Mario-Rocha.pdf'
-        document.body.appendChild(link)
-        link.click()
-        document.body.removeChild(link)
+        window.open('/cv-mario-rocha.pdf', '_blank')
     }
 
     return (

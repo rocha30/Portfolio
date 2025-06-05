@@ -7,7 +7,7 @@ const Contact = () => {
             icon: '📧',
             label: 'Email',
             value: 'marochalopez@gmail.com',
-            link: 'marochalopez@gmail.com'
+            link: 'mailto:marochalopez@gmail.com'
         },
         {
             icon: '📱',
@@ -19,7 +19,7 @@ const Contact = () => {
             icon: '💻',
             label: 'GitHub',
             value: '@rocha30',
-            link: 'https://github.com'
+            link: 'https://github.com/rocha30'
         },
         {
             icon: '📞',
@@ -30,12 +30,7 @@ const Contact = () => {
     ]
 
     const downloadCV = () => {
-        const link = document.createElement('a')
-        link.href = '/cv-mario-rocha.pdf'
-        link.download = 'CV-Mario-Rocha.pdf'
-        document.body.appendChild(link)
-        link.click()
-        document.body.removeChild(link)
+        window.open('/cv-mario-rocha.pdf', '_blank')
     }
 
     return (
@@ -78,7 +73,7 @@ const Contact = () => {
                         <div className="contact__actions">
                             <Button
                                 size="large"
-                                onClick={() => window.open('mailto:mario.rocha@email.com', '_blank')}
+                                onClick={() => window.open('mailto:marochalopez@gmail.com', '_blank')}
                             >
                                 Enviar Email
                             </Button>

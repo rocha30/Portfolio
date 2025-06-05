@@ -1,34 +1,9 @@
 import './FeaturedProjects.css'
 
+import { projects } from '../../../data/projects'
+
 const FeaturedProjects = () => {
-    const projects = [
-        {
-            id: 1,
-            title: "E-commerce React",
-            description: "Tienda online completa con carrito de compras, gestión de productos y sistema de pago integrado con Stripe.",
-            technologies: ["React", "Node.js", "MongoDB", "Stripe", "CSS3"],
-            githubUrl: "https://github.com/tu-usuario/ecommerce-react",
-            demoUrl: "https://ecommerce-demo.netlify.app",
-            image: "🛒"
-        },
-        {
-            id: 2,
-            title: "API REST ToDo",
-            description: "API completa para gestión de tareas con autenticación JWT, CRUD operations y documentación con Swagger.",
-            technologies: ["Node.js", "Express", "MongoDB", "JWT", "Swagger"],
-            githubUrl: "https://github.com/tu-usuario/todo-api",
-            image: "📝"
-        },
-        {
-            id: 3,
-            title: "Portfolio Personal",
-            description: "Sitio web personal desarrollado con React y diseño responsive. Incluye animaciones y optimización SEO.",
-            technologies: ["React", "CSS3", "Vite", "JavaScript", "Responsive"],
-            githubUrl: "https://github.com/tu-usuario/portfolio",
-            demoUrl: "https://mario-rocha-portfolio.netlify.app",
-            image: "💼"
-        }
-    ]
+
 
     return (
         <section id="projects" className="projects section">

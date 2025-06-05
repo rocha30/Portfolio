@@ -16,7 +16,7 @@ const Footer = () => {
         },
         {
             name: 'Email',
-            url: 'marochalopez@gmail.com',
+            url: 'mailto:marochalopez@gmail.com',
             icon: '✉️'
         }
     ]
@@ -53,7 +53,7 @@ const Footer = () => {
 
                 <div className="footer__bottom">
                     <p>&copy; {currentYear} Mario Rocha. Todos los derechos reservados.</p>
-                    <p>Hecho con ❤️ y React</p>
+                    <p></p>
                 </div>
             </div>
         </footer>
