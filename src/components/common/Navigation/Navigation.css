@@ -1,0 +1,132 @@
+.navigation {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-lg);
+}
+
+.navigation__list {
+    display: flex;
+    list-style: none;
+    gap: var(--spacing-lg);
+    margin: 0;
+    padding: 0;
+}
+
+.navigation__link {
+    background: none;
+    border: none;
+    color: var(--text-secondary);
+    font-size: 0.95rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: color 0.2s ease;
+    padding: var(--spacing-sm);
+}
+
+.navigation__link:hover {
+    color: var(--primary-color);
+}
+
+.navigation__actions {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-sm);
+}
+
+.navigation__cv-btn {
+    margin-right: var(--spacing-xs);
+}
+
+/* Mobile Navigation */
+.navigation__toggle {
+    display: none;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 24px;
+    height: 24px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+}
+
+.navigation__toggle span {
+    width: 24px;
+    height: 2px;
+    background-color: var(--text-primary);
+    transition: all 0.3s ease;
+    transform-origin: center;
+}
+
+.navigation__toggle--open span:nth-child(1) {
+    transform: rotate(45deg) translate(5px, 5px);
+}
+
+.navigation__toggle--open span:nth-child(2) {
+    opacity: 0;
+}
+
+.navigation__toggle--open span:nth-child(3) {
+    transform: rotate(-45deg) translate(7px, -6px);
+}
+
+.navigation__mobile {
+    display: none;
+    position: fixed;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background-color: white;
+    border-top: 1px solid var(--border-color);
+    box-shadow: var(--shadow-lg);
+    transform: translateY(-100%);
+    transition: transform 0.3s ease;
+    z-index: 999;
+}
+
+.navigation__mobile--open {
+    transform: translateY(0);
+}
+
+.navigation__mobile-list {
+    list-style: none;
+    padding: var(--spacing-lg);
+    margin: 0;
+}
+
+.navigation__mobile-item {
+    margin-bottom: var(--spacing-md);
+}
+
+.navigation__mobile-link {
+    display: block;
+    width: 100%;
+    padding: var(--spacing-md);
+    background: none;
+    border: none;
+    text-align: left;
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: var(--text-primary);
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+    border-radius: var(--border-radius-md);
+}
+
+.navigation__mobile-link:hover {
+    background-color: var(--background-alt);
+    color: var(--primary-color);
+}
+
+@media (max-width: 768px) {
+
+    .navigation__list,
+    .navigation__actions {
+        display: none;
+    }
+
+    .navigation__toggle,
+    .navigation__mobile {
+        display: flex;
+    }
+}

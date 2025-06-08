@@ -1,0 +1,109 @@
+.contact {
+    background-color: var(--background);
+}
+
+.contact__content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: var(--spacing-2xl);
+    align-items: start;
+}
+
+.contact__info h3,
+.contact__cta h3 {
+    color: var(--primary-color);
+    margin-bottom: var(--spacing-lg);
+    font-size: 1.5rem;
+}
+
+.contact__list {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-md);
+}
+
+.contact__item {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-md);
+    padding: var(--spacing-md);
+    background-color: var(--background-alt);
+    border-radius: var(--border-radius-md);
+    text-decoration: none;
+    transition: all 0.2s ease;
+    border: 1px solid var(--border-color);
+}
+
+.contact__item:hover {
+    background-color: white;
+    box-shadow: var(--shadow-md);
+    transform: translateY(-2px);
+}
+
+.contact__icon {
+    font-size: 1.5rem;
+    width: 40px;
+    text-align: center;
+}
+
+.contact__details {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact__label {
+    font-size: 0.85rem;
+    color: var(--text-secondary);
+    font-weight: 500;
+}
+
+.contact__value {
+    color: var(--text-primary);
+    font-weight: 600;
+}
+
+.contact__cta {
+    background-color: var(--background-alt);
+    padding: var(--spacing-xl);
+    border-radius: var(--border-radius-lg);
+    border: 1px solid var(--border-color);
+}
+
+.contact__cta p {
+    color: var(--text-secondary);
+    line-height: 1.6;
+    margin-bottom: var(--spacing-xl);
+}
+
+.contact__actions {
+    display: flex;
+    gap: var(--spacing-md);
+    margin-bottom: var(--spacing-lg);
+}
+
+.contact__availability {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-sm);
+    color: var(--success-color);
+    font-weight: 500;
+    font-size: 0.9rem;
+}
+
+.availability-indicator {
+    font-size: 0.8rem;
+}
+
+@media (max-width: 768px) {
+    .contact__content {
+        grid-template-columns: 1fr;
+    }
+
+    .contact__actions {
+        flex-direction: column;
+    }
+
+    .contact__cta {
+        padding: var(--spacing-lg);
+    }
+}
